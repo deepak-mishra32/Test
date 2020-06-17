@@ -1,0 +1,55 @@
+.board button{
+  background-color: white;
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  border: 2px solid black;
+  color: white;
+  position: relative;
+}
+.board{
+  margin-left: 30px;
+  margin-right: 50px;
+}
+/* .blank{
+  height: 20px;
+  font-size: 25px;
+  font-weight: bold;
+  font-family: sans-serif;
+  margin: 10px 10px 10px 10px;
+} */
+body{
+  background-color: #78c0f0;
+  border-bottom: black 20px;
+}
+.sec2{
+  display: flex;
+  margin-top: 20px;
+}
+nav{
+  margin: 10px 10px 10px 10px;
+  background-color: #0384fc;
+  display: flex;
+}
+nav h1{
+  padding: 25px 0px 0px 20px;
+}
+nav img{
+  padding: 5px 5px 5px 5px;
+  width: 100px;
+  height: 100px;
+}
+.div1 h3{
+  padding-top: 20px;
+  margin-left: 80px;
+}
+.plyrname{
+  margin-left: 115px;
+  display: flex;
+}
+#res2{
+  visibility: hidden;
+}
+#plyagn{
+  visibility: hidden;
+}

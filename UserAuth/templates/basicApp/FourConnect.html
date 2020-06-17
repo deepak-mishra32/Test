@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Connected Four</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="{% static "css/fourconnected.css" %}">
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.js"
+      integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+      crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div class="Container">
+      <nav>
+          <img src="{% static "CNC4(1).png" %}" alt="Connect Four">
+          <h1>Welcome to Connect Four</h1>
+      </nav>
+      <section class="sec1" align="center">
+        <h2>The Objective of this game is to connect Four Dots</h2>
+        <h3 id="pname">Let's Get Started</h3>
+      </section>
+        <section class="sec2" align="center">
+            <div class="div1">
+              <h3>Click on first row to fill dots</h3>
+              <table class="plyrname">
+                <tr>
+                  <td><h4>Player One:</h4></td>
+                  <td> <h4 id="p1"></h4> </td>
+                </tr>
+                <tr>
+                  <td><h4 >Player Two:</h4></td>
+                  <td> <h4 id="p2"></h4> </td>
+                </tr>
+                <tr>
+                  <td><h4>Toss:</h4></td>
+                  <td> <h4 id="Toss"></h4> </td>
+                </tr>
+                <tr>
+                  <td> <h4>Play Turn:</h4></td>
+                  <td> <h4 id="Turn"></h4> </td>
+                </tr>
+                <tr>
+                  <td> <h4 id="res2">Results:</h4></td>
+                  <td> <h4 id="res3"></h4> </td>
+                </tr>
+                <tr>
+                  <td><p id="plyagn">Refresh the page to Play Again</p></td>
+                </tr>
+              </table>
+            </div>
+          <table align="center" class="board">
+              <tr id="tr1">
+                <td><button type="button">c</button> </td>
+                <td><button type="button">c</button> </td>
+                <td><button type="button">c</button> </td>
+                <td><button type="button">c</button> </td>
+                <td><button type="button">c</button> </td>
+                <td><button type="button">c</button> </td>
+                <td><button type="button">c</button> </td>
+              </tr>
+              <tr id="tr2">
+                <td><button type="button">c</button> </td>
+                <td><button type="button">c</button> </td>
+                <td><button type="button">c</button> </td>
+                <td><button type="button">c</button> </td>
+                <td><button type="button">c</button> </td>
+                <td><button type="button">c</button> </td>
+                <td><button type="button">c</button> </td>
+              </tr>
+              <tr id="tr3">
+                <td><button type="button">c</button> </td>
+                <td><button type="button">c</button> </td>
+                <td><button type="button">c</button> </td>
+                <td><button type="button">c</button> </td>
+                <td><button type="button">c</button> </td>
+                <td><button type="button">c</button> </td>
+                <td><button type="button">c</button> </td>
+              </tr>
+              <tr id="tr4">
+                <td><button type="button">c</button> </td>
+                <td><button type="button">c</button> </td>
+                <td><button type="button">c</button> </td>
+                <td><button type="button">c</button> </td>
+                <td><button type="button">c</button> </td>
+                <td><button type="button">c</button> </td>
+                <td><button type="button">c</button> </td>
+              </tr>
+              <tr id="tr5">
+                <td><button type="button">c</button> </td>
+                <td><button type="button">c</button> </td>
+                <td><button type="button">c</button> </td>
+                <td><button type="button">c</button> </td>
+                <td><button type="button">c</button> </td>
+                <td><button type="button">c</button> </td>
+                <td><button type="button">c</button> </td>
+              </tr>
+              <tr id="tr6">
+                <td><button type="button">c</button> </td>
+                <td><button type="button">c</button> </td>
+                <td><button type="button">c</button> </td>
+                <td><button type="button">c</button> </td>
+                <td><button type="button">c</button> </td>
+                <td><button type="button">c</button> </td>
+                <td><button type="button">c</button> </td>
+              </tr>
+          </table>
+      </section>
+        <!-- <input type="submit" align="center" name="Restart" value="PlayAgain"> -->
+      </div>
+    <script src="{% static "javascript/fourconnected.js" %}" charset="utf-8"></script>
+  </body>
+</html>

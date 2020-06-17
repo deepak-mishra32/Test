@@ -1,0 +1,3 @@
+username=deepm
+email=deepak@gmail.com
+password=deep123
